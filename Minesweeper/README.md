@@ -1,6 +1,6 @@
 # C++ Minesweeper Project with SFML
 
-This project is an implementation of the Minesweeper game, built using C++ and the SFML (Simple and Fast Multimedia Library) library for graphics and user input handling.
+This project is an implementation of the Minesweeper game for COP3503, built using C++ and the SFML (Simple and Fast Multimedia Library) library for graphics and user input handling.
 
 ## Features
 
