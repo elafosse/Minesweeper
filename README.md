@@ -26,12 +26,12 @@ For example, on Linux/macOS with GCC:
 
 ```
 g++ -c -Iinclude -I"lib/SFML/include" .\src\*.cpp
-g++ .\src\*.o -o minesweeper -lsfml-graphics -lsfml-window -lsfml-system
+g++ *.o -o minesweeper -L"lib/SFML/lib" -lsfml-graphics -lsfml-window -lsfml-system                                              
 ```
 
 On Windows with MinGW:
 
 ```
 g++ -c -Iinclude -I"lib/SFML/include" .\src\*.cpp 
-g++ .\src\*.o -o minesweeper.exe -lsfml-graphics -lsfml-window -lsfml-system
+g++ *.o -o minesweeper.exe -L"lib/SFML/lib" -lsfml-graphics -lsfml-window -lsfml-system                                              
 ```
