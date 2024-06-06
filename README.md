@@ -25,13 +25,13 @@ This project is an implementation of the Minesweeper game for COP3503, built usi
 For example, on Linux/macOS with GCC:
 
 ```
-g++ -c *.cpp
+g++ -c src/*.cpp
 g++ *.o -o minesweeper -lsfml-graphics -lsfml-window -lsfml-system
 ```
 
 On Windows with MinGW:
 
 ```
-g++ -c *.cpp
+g++ -c src/*.cpp
 g++ *.o -o minesweeper.exe -lsfml-graphics -lsfml-window -lsfml-system
 ```
