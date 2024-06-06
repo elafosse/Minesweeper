@@ -1,4 +1,4 @@
-#include <SFML/Graphics.hpp>
+#include <../lib/SFML/Graphics.hpp>
 #include "Tile.h"
 #include "Board.h"
 #include "TextureManager.h"
